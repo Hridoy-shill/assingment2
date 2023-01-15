@@ -247,7 +247,6 @@ nav li{
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 40px;
-
 }
 .logo-img{
     width: 100px;
@@ -344,6 +343,40 @@ nav li{
         color: white;
         font-size: 20px;
     }
-    
+    /* section4 start */
+    .section4-details{
+        width: 100%;
+        text-align: center; 
+        margin: 40px auto;
+        padding-left: 15px;
+    }
+    .section4-box-container{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 25%;
+        gap: 10px;
+    }
+    /* section5 start */
+    .section5-container{
+        margin-top: 80px;
+        width: 100%;
+        text-align: center;
+    }
 
+    .section5-logos-container{
+        flex-direction: column;
+        width: 100%;
+        text-align: center; 
+        gap: 20px;
+    }
+    .footer-container{
+        display: flex;
+        width: 100%;
+    }
+    .footer-ditails{
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        padding: 20px;
+    }
 }
